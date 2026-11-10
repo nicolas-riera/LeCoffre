@@ -52,7 +52,7 @@ Procedure:
 ```
 Response : 
 ```js
-etch('/rest/user/login', {
+fetch('/rest/user/login', {
   method:'POST',
   headers:{'Content-Type':'application/json'},
   body: JSON.stringify({email:'admin@juice-sh.op', password:'admin123'})
